@@ -65,7 +65,7 @@ public class PasswordStore {
 
     public String getCategory(){
         return switch (category) {
-            case UNCATEGORIZED -> "Belum terkategori";
+            case UNCATEGORIZED -> "Uncategory";
             case CAT_WEBAPP -> "Aplikasi web";
             case CAT_MOBILEAPP -> "Aplikasi mobile";
             case CAT_OTHER -> "Akun lainnya";
